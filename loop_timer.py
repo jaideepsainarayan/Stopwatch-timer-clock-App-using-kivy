@@ -21,12 +21,12 @@ tr = Builder.load_string('''
     PageLayout:
         Label:
             id: timer
-            font_size: 20
+            font_size: 25
             text:"0:0:0"
             
         Label:
             id:clk
-            font_size: 20
+            font_size: 25
             text:" "
             color:(0,0.1,0.2,1)
             canvas.before:
