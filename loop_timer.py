@@ -58,7 +58,7 @@ class NGrid(GridLayout):
         self.ids.timer.text='0:0:0'
     
 
-class Ti(App):
+class Timer(App):
 
     def on_start(self):
         Clock.schedule_interval(self.tim,1)
@@ -86,5 +86,5 @@ class Ti(App):
 
     def build(self):
         return NGrid()
-Ti().run()
+Timer().run()
 
